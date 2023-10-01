@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+  .LeftSidebar {
+    position: fixed;
+    overflow: auto;
+    z-index: 999;
+    width: min(250px, 100%);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 71vh;
+    border-radius: 10px;
+  }
+  .RightSidebar {
+    position: fixed;
+    overflow: auto;
+    z-index: 997;
+    width: min(250px, 100%);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 300vh;
+  }
+
+  .greet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardsgap {
+    gap: 2rem;
+  }
+
+  .purpleCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .THistoryTxt{
+    display: flex;
+    justify-items: center;
+  }
+  .TransMbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap:10px;
+  }
+} 
