@@ -5,39 +5,6 @@ import p3 from "../Assets/3.jpg";
 import str from "../Assets/star.jpg";
 function Customers() {
   return (
-    // <div className="relative w-full flex flex-col min-w-0 break-words  ">
-    //   <div className="block bg-transparent m-4 p-4 w-full overflow-x-auto">
-    //     <table className="w-full">
-    //       <thead>
-    //         <tr className="border-b">
-    //           <th className="text-md px-6 py-3">Customer</th>
-    //           <th className="text-md px-6 py-3">Status</th>
-    //           <th className="text-md px-6 py-3">Date</th>
-    //           <th className="text-md px-6 py-3">Invoice</th>
-    //           <th className="text-md px-6 py-3">People</th>
-    //         </tr>
-    //       </thead>
-
-    //       <tbody>
-    //         <tr className="border-b">
-    //           <td className="px-6 py-3">john</td>
-    //           <td className="px-6 py-3">jack</td>
-    //           <td className="px-6 py-3">alice</td>
-    //           <td className="px-6 py-3">peter</td>
-    //           <td className="px-6 py-3">rick</td>
-    //         </tr>
-
-    //         <tr>
-    //           <td className="px-6 py-3">john</td>
-    //           <td className="px-6 py-3">jack</td>
-    //           <td className="px-6 py-3">alice</td>
-    //           <td className="px-6 py-3">peter</td>
-    //           <td className="px-6 py-3">rick</td>
-    //         </tr>
-    //       </tbody>
-    //     </table>
-    //   </div>
-    // </div>
 
     <div className="relative flex flex-col min-w-0 break-words">
       <div className="absolute block z-60 w-full overflow-x-auto">
