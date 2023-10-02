@@ -52,7 +52,7 @@ function ControlTxt() {
         </div>
       </div>
 
-      <section className="mt-5 mb-6">
+      <section className="pt-7 mb-6">
         <a
           href=" "
           className="flex items-center p-2 antialiased border border-slate-200 text-black rounded-lg text-violet-600 hover:bg-slate-100"

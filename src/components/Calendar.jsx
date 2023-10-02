@@ -5,7 +5,7 @@ import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 function Calendar() {
   return (
     <div>
-      <div className="flex flex-col items-center border-t border-gray-200 pt-5">
+      <div className="flex flex-col items-center border-t border-gray-200 pt-7">
         <div className="flex flex-row justify-between text-heading4-medium text-light-1 w-full">
           <div className="text-sm font-medium">October 2023</div>
           <div className="flex flex-row space-x-2 cursor-pointer">

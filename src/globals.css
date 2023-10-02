@@ -4,10 +4,8 @@
 
 
 
-@layer components {
-  /* .puple-block{
 
-  } */
+@layer components {
 
   .anchor-cont {
     @apply flex items-center p-2 text-black rounded-lg hover:text-white hover:bg-violet-600;

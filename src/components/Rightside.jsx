@@ -30,7 +30,7 @@ function Rightside() {
 
       {/* Right Sidebar */}
       {isRightSideOpen && (
-        <section className="mr-4 RightSidebar bg-white h-screen overflow-x-hidden overflow-y-auto w-72">
+        <section className="mr-4 RightSidebar bg-white h-screen w-72">
           <div className="flex flex-col">
             <BelButton />
             <ControlTxt />

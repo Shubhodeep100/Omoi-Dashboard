@@ -6,6 +6,7 @@ import TotalSalesanalytics from "./components/TotalSalesanalytics";
 import TransHistory from "./components/TransHistory";
 // import Customers from "./components/Customers";
 import "./App.css";
+import Customers from "./components/Customers";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <PurpleSlab />
           <TotalSalesanalytics />
           <TransHistory />
+          <Customers />
         </div>
 
         <Rightside />

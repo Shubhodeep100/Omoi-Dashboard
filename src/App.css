@@ -18,7 +18,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    height: 300vh;
+    height: 100vh;
   }
 
   .greet {
@@ -47,4 +47,6 @@
     font-size: 1rem;
     gap:10px;
   }
+
+
 } 
