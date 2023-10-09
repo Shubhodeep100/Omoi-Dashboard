@@ -20,7 +20,7 @@ function Leftside({ openSidebarToggle, OpenSidebar }) {
         {/* Add the LeftCircleOutlined icon and onClick handler */}
         <div className="absolute top-4 right-4">
           <LeftCircleOutlined
-            className="text-lg lg:hidden cursor-pointer"
+            className="text-2xl lg:hidden cursor-pointer"
             onClick={OpenSidebar}
           />
         </div>

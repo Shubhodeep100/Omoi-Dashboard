@@ -21,7 +21,7 @@ function Greeting({ OpenSidebar, Openrightbar }) {
 
       <div className="flex flex-wrap pt-1 pl-1 greet">
         <MenuOutlined
-          className="pl-5 text-lg cursor-pointer lg:hidden"
+          className="pl-5 text-xl cursor-pointer lg:hidden"
           onClick={OpenSidebar}
         />
         <div className="w-14 h-14 p-1 mr-4 rounded-full relative">

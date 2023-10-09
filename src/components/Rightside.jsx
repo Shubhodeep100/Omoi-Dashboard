@@ -10,10 +10,9 @@ function Rightside({ openrightbarToggle, Openrightbar }) {
 
   return (
     <div id="sidebar" className={openrightbarToggle ? "responsive" : ""}>
-      
       <section className="RightSidebar bg-white h-screen w-80">
         <RightCircleOutlined
-          className="pl-2 text-lg z-100 cursor-pointer lg:hidden"
+          className="pl-2 text-2xl z-100 cursor-pointer lg:hidden"
           onClick={Openrightbar}
         />
         <div className="flex flex-col">
