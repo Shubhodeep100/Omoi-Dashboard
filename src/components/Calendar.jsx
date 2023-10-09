@@ -28,15 +28,15 @@ function Calendar() {
           <div className="text-sm text-gray-400">Sun</div>
         </div>
         <div className="flex flex-row space-x-7 pt-1 pl-2">
-          <span className="text-sm text-black text-xs cursor-pointer">11</span>
-          <span className="text-sm text-black text-xs cursor-pointer">12</span>
-          <span className="w-5 h-5 rounded-full text-xs text-white bg-violet-500 flex items-top justify-center cursor-pointer">
+          <span className="text-xs text-black cursor-pointer">11</span>
+          <span className="text-xs text-black cursor-pointer">12</span>
+          <span className="text-xs w-5 h-5 rounded-full text-white bg-violet-500 flex items-top justify-center cursor-pointer">
             13
           </span>
-          <span className="text-sm text-black text-xs cursor-pointer">14</span>
-          <span className="text-sm text-black text-xs cursor-pointer">15</span>
-          <span className="text-sm text-black text-xs cursor-pointer">17</span>
-          <span className="text-sm text-black text-xs cursor-pointer">16</span>
+          <span className="text-xs text-black cursor-pointer">14</span>
+          <span className="text-xs text-black cursor-pointer">15</span>
+          <span className="text-xs text-black cursor-pointer">17</span>
+          <span className="text-xs text-black cursor-pointer">16</span>
         </div>
       </div>
     </div>

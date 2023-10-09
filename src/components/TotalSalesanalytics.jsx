@@ -33,7 +33,7 @@ function TotalSalesanalytics() {
             <p className="text-gray-500 text-xs">Last 60 days</p>
             <div className="flex flex-col justify-between items-start">
               <div className="flex flex-row mt-14 justify-items-center items-center">
-                <span className="text-gray-900 text-4xl font-medium text-violet-600 pr-3">
+                <span className=" text-4xl font-medium text-violet-600 pr-3">
                   $956.82k
                 </span>
                 <span className="bg-green-200 rounded-l-full rounded-r-full w-14 h-4 flex justify-center items-center">

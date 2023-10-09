@@ -55,7 +55,7 @@ function ControlTxt() {
       <section className="pt-7 mb-6">
         <a
           href=" "
-          className="flex items-center p-2 antialiased border border-slate-200 text-black rounded-lg text-violet-600 hover:bg-slate-100"
+          className="flex items-center p-2 antialiased border border-slate-200 rounded-lg text-violet-600 hover:bg-slate-100"
         >
           <span className="text-violet-600 text-sm ">Upgrade Now</span>
           <ArrowRightOutlined className="ml-auto text-violet-600 pr-2" />

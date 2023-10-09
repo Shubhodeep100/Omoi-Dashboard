@@ -27,21 +27,21 @@ function TransHistory() {
                 type="button"
               >
                 Recipient
-                <CaretDownOutlined className="text-black text-sm pb-1 text-gray-400 px-1 pl-3" />
+                <CaretDownOutlined className=" text-sm pb-1 text-gray-400 px-1 pl-3" />
               </button>
               <button
                 className="bg-slate-100 hover:bg-slate-200 w-28 text-black font-normal py-1 px-2 rounded-lg"
                 type="button"
               >
                 Amount
-                <CaretDownOutlined className="text-black text-sm pb-1 text-gray-400 px-1 pl-3" />
+                <CaretDownOutlined className=" text-sm pb-1 text-gray-400 px-1 pl-3" />
               </button>
               <button
                 className="bg-slate-100 hover:bg-slate-200 w-28 text-black font-normal py-1 px-2 rounded-lg"
                 type="button"
               >
                 Status
-                <CaretDownOutlined className="text-black text-sm pb-1 text-gray-400 pl-3" />
+                <CaretDownOutlined className=" text-sm pb-1 text-gray-400 pl-3" />
               </button>
             </div>
           </div>
@@ -52,9 +52,9 @@ function TransHistory() {
             className="bg-white border border-gray-300 py-1 rounded-lg w-28 shadow-md text-xs font-semibold"
             onClick={toggleDrop}
           >
-            <CalendarOutlined className="text-black text-sm pb-1 text-gray-400 pr-2" />
+            <CalendarOutlined className=" text-sm pb-1 text-gray-400 pr-2" />
             Month
-            <CaretDownOutlined className="text-black text-sm pb-1 text-gray-400 px-2" />
+            <CaretDownOutlined className=" text-sm pb-1 text-gray-400 px-2" />
           </button>
           {state.isDropOpen && (
             <div className="absolute mt-9 bg-white border border-gray-300 rounded-lg shadow-md w-28 flex flex-col items-center z-50 cursor-pointer pl-2">

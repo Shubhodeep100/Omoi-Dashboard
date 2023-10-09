@@ -6,7 +6,7 @@ import profit from "../Assets/profit.jpg";
 function PurpleSlab() {
   return (
     <div className="min-h-min z-60 flex-col items-center">
-      <article className="flex rounded-xl bg-violet-600 rounded-lg">
+      <article className="flex bg-violet-600 rounded-lg">
         <div className="flex flex-wrap gap-14 cardsgap justify-between purpleCard p-4">
           {/* Card One - Monthly Revenue */}
           <div className="flex flex-row items-center">
