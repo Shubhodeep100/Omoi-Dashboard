@@ -7,7 +7,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    height: 71vh;
+    height: 80vh;
     border-radius: 10px;
   }
   .RightSidebar {
@@ -18,7 +18,8 @@
     right: 0;
     top: 0;
     bottom: 0;
-    height: 100vh;
+    height: 90vh;
+    border-radius: 10px;
   }
 
   .greet {
@@ -47,6 +48,16 @@
     font-size: 1rem;
     gap:10px;
   }
+ 
+  #sidebar {
+    display: none;
+  }
+
+} 
 
 
+.responsive {
+  display: inline !important;
+  position: relative;
+  z-index: 12 !important;
 } 

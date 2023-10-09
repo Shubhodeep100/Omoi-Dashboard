@@ -1,44 +1,28 @@
-import React, { useState } from "react";
-import { LeftSquareOutlined, RightSquareOutlined } from "@ant-design/icons";
+import {React} from "react";
+import { RightCircleOutlined } from "@ant-design/icons";
 import BelButton from "./BelButton";
 import ControlTxt from "./ControlTxt";
 import Calendar from "./Calendar";
 import FinalEvents from "./FinalEvents";
 
-function Rightside() {
-  const [isRightSideOpen, setIsRightSideOpen] = useState(true);
-
+function Rightside({ openrightbarToggle, Openrightbar }) {
   // Function to toggle the sidebar
-  const toggleRightsidebar = () => {
-    setIsRightSideOpen(!isRightSideOpen);
-  };
 
   return (
-    <div className="relative">
-      {/* Toggle button for mobile */}
-      <button
-        className="sticky sm:hidden top-20 right-8"
-        onClick={toggleRightsidebar}
-        aria-label="Toggle Sidebar"
-      >
-        {isRightSideOpen ? (
-          <RightSquareOutlined className="text-lg" />
-        ) : (
-          <LeftSquareOutlined className="text-lg" />
-        )}
-      </button>
-
-      {/* Right Sidebar */}
-      {isRightSideOpen && (
-        <section className="mr-4 RightSidebar bg-white h-screen w-72">
-          <div className="flex flex-col">
-            <BelButton />
-            <ControlTxt />
-            <Calendar />
-            <FinalEvents />
-          </div>
-        </section>
-      )}
+    <div id="sidebar" className={openrightbarToggle ? "responsive" : ""}>
+      
+      <section className="RightSidebar bg-white h-screen w-80">
+        <RightCircleOutlined
+          className="pl-2 text-lg z-100 cursor-pointer lg:hidden"
+          onClick={Openrightbar}
+        />
+        <div className="flex flex-col">
+          <BelButton />
+          <ControlTxt />
+          <Calendar />
+          <FinalEvents />
+        </div>
+      </section>
     </div>
   );
 }

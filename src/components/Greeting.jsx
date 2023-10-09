@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import pic from "../Assets/mypic.png";
 
-import { CloseCircleOutlined, SearchOutlined } from "@ant-design/icons";
+import {
+  CloseCircleOutlined,
+  MenuOutlined,
+  SearchOutlined,
+} from "@ant-design/icons";
 
-function Greeting() {
+function Greeting({ OpenSidebar, Openrightbar }) {
   const [isSearchVisible, setSearchVisible] = useState(false);
 
   const toggleSearch = () => {
@@ -12,6 +16,18 @@ function Greeting() {
 
   return (
     <div className="min-h-min bg-white items-center pt-4 rounded-lg">
+      {/* Add the MenuOutlined icon conditionally */}
+      <div className="flex justify-between">
+        <MenuOutlined
+          className="pl-5 text-lg cursor-pointer lg:hidden"
+          onClick={OpenSidebar}
+        />
+        <MenuOutlined
+          className="pr-5 text-lg cursor-pointer lg:hidden"
+          onClick={Openrightbar}
+        />
+      </div>
+
       <div className="flex flex-wrap pt-1 pl-1 greet">
         <div className="w-14 h-14 p-1 mr-4 rounded-full relative">
           <div className="absolute inset-0 ring-violet-500 ring-4 rounded-full" />
@@ -26,11 +42,8 @@ function Greeting() {
         </div>
 
         <div className="flex flex-col justify-between greet">
-
           <div className="text-gray-900 text-2xl font-medium">
-            <div className="greet">
-            Good Evening Team!
-            </div>
+            <div className="greet">Good Evening Team!</div>
           </div>
           <div className="mt-1 flex flex-col justify-between">
             <p className="text-gray-500 text-xs font-normal">

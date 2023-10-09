@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import dp from "../Assets/mypic.png";
-import { BellOutlined, DownOutlined } from "@ant-design/icons";
+import { BellOutlined, DownOutlined} from "@ant-design/icons";
 
 function BelButton() {
   const [state, setState] = useState({ isDropdownOpen: false });
@@ -16,6 +16,7 @@ function BelButton() {
     <div>
       <div className="flex flex-row justify-between pt-1 pb-6">
         <div className="mt-3 pt-1 cursor-pointer relative">
+          
           <BellOutlined />
           <div className="absolute top-2 right-0 w-2 h-2 bg-purple-500 rounded-full"></div>
         </div>

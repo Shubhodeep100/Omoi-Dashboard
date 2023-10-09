@@ -53,7 +53,7 @@ function LeftSidebar() {
           </div>
 
           {/* The links component block starts */}
-          <div className="h-full pt-5 bg-white overflow-y-auto bg-white h-screen sm:w-44">
+          <div className="h-full pt-5 bg-white overflow-y-auto sm:w-44">
             <ul className="space-y-1 text-xs">
               <li>
                 <a href=" " className="anchor-cont">
