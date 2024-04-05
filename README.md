@@ -12,7 +12,7 @@
 
 ## Demo
 
-https://omoinew-dashboard.pages.dev/
+[Demo](https://omoinew-dashboard.pages.dev/)
 
 
 ## Screenshots
